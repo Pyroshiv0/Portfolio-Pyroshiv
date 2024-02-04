@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "golems_awakening:block/test",
+    "up": "golems_awakening:block/test",
+    "north": "golems_awakening:block/test",
+    "east": "golems_awakening:block/test",
+    "south": "golems_awakening:block/test",
+    "west": "golems_awakening:block/test",
+    "particle": "golems_awakening:block/test"
+  },
+  "render_type": "solid"
+}
