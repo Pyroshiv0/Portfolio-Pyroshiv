@@ -1,0 +1,7 @@
+{
+  "_fv": 57,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">entity_dies</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"entity_haspotioneffect\"><field name=\"potion\">CUSTOM:LastLove</field><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></value><statement name=\"DO0\"><block type=\"execute_command\"><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">summon area_effect_cloud ~ ~.75 ~ {CustomName:\"\",Radius:5.0f,Duration:1200,RadiusOnUse:0.0f,RadiusPerTick:0.0f,ReapplicationDelay:40,Effects:[{Duration:80,\"forge:id\":\"minecraft:regeneration\"}]}</field></block></value><value name=\"x\"><block type=\"coord_x\"></block></value><value name=\"y\"><block type=\"coord_y\"></block></value><value name=\"z\"><block type=\"coord_z\"></block></value></block></statement></block></next></block><block type=\"text_print\" x=\"279\" y=\"267\"><value name=\"TEXT\"><block type=\"text\"><field name=\"TEXT\">UwU</field></block></value></block></xml>"
+  }
+}

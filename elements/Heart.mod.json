@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:EndermanHeart"
+      },
+      {
+        "value": "CUSTOM:DragonHeart"
+      },
+      {
+        "value": "CUSTOM:StitchedHeart"
+      },
+      {
+        "value": "CUSTOM:IceHeart"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "hearts",
+    "namespace": "sons_of_sins"
+  }
+}

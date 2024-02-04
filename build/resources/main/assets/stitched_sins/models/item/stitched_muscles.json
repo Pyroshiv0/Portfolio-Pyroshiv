@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "stitched_sins:item/stitched_muscle_uncolored"
+  }
+}

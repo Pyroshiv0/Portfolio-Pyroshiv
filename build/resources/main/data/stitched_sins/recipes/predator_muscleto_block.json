@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stitched_sins:predator_muscle"
+    }
+  },
+  "result": {
+    "item": "stitched_sins:predator_muscle_block",
+    "count": 1
+  }
+}

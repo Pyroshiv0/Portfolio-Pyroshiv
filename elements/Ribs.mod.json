@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:WolfRibs"
+      },
+      {
+        "value": "CUSTOM:StitchedRibs"
+      },
+      {
+        "value": "CUSTOM:RoseCreeperRibs"
+      },
+      {
+        "value": "CUSTOM:WarpedGolemCuirass"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "ribs",
+    "namespace": "sons_of_sins"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:StitchedMuscles"
+      },
+      {
+        "value": "CUSTOM:PredatorMuscle"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "muscles",
+    "namespace": "sons_of_sins"
+  }
+}

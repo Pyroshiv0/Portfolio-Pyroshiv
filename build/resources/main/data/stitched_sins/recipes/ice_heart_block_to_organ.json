@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stitched_sins:ice_heart_block"
+    }
+  ],
+  "result": {
+    "item": "stitched_sins:ice_heart",
+    "count": 9
+  }
+}

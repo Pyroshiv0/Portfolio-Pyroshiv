@@ -1,0 +1,9 @@
+{
+  "parent": "stitched_sins:custom/rosecreeperribsblock",
+  "textures": {
+    "all": "stitched_sins:block/companion_cube_uncentered",
+    "particle": "stitched_sins:block/companion_cube_uncentered",
+    "1": "stitched_sins:block/companion_cube_uncentered"
+  },
+  "render_type": "solid"
+}

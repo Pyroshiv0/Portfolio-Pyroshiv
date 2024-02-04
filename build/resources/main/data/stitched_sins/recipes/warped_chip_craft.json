@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:sculk"
+    },
+    "c": {
+      "item": "stitched_sins:ether_string"
+    },
+    "d": {
+      "item": "minecraft:mud"
+    },
+    "e": {
+      "item": "minecraft:chorus_fruit"
+    }
+  },
+  "result": {
+    "item": "stitched_sins:warped_chip",
+    "count": 1
+  }
+}

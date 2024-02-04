@@ -1,0 +1,150 @@
+---- Minecraft Crash Report ----
+// Why did you do that?
+
+Time: 2024-02-04 16:35:21
+Description: Stitching
+
+net.minecraft.client.renderer.texture.StitcherException: Unable to fit: stitched_sins:snowflake-sheet - size: 22400x1600 - Maybe try a lower resolution resourcepack?
+	at net.minecraft.client.renderer.texture.Stitcher.stitch(Stitcher.java:67) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.texture.SpriteLoader.stitch(SpriteLoader.java:79) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.texture.SpriteLoader.lambda$loadAndStitch$7(SpriteLoader.java:123) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.minecraft.client.renderer.texture.Stitcher.stitch(Stitcher.java:67) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?] {re:classloading,pl:runtimedistcleaner:A}
+-- Stitcher --
+Details:
+	Sprites: stitched_sins:snowflake_sheet_vertical[1600x22400],stitched_sins:snowflake-sheet[22400x1600],minecraft:explosion_0[32x32],minecraft:explosion_1[32x32],minecraft:explosion_10[32x32],minecraft:explosion_11[32x32],minecraft:explosion_12[32x32],minecraft:explosion_13[32x32],minecraft:explosion_14[32x32],minecraft:explosion_15[32x32],minecraft:explosion_2[32x32],minecraft:explosion_3[32x32],minecraft:explosion_4[32x32],minecraft:explosion_5[32x32],minecraft:explosion_6[32x32],minecraft:explosion_7[32x32],minecraft:explosion_8[32x32],minecraft:explosion_9[32x32],minecraft:flash[32x32],minecraft:sonic_boom_0[32x32],minecraft:sonic_boom_1[32x32],minecraft:sonic_boom_10[32x32],minecraft:sonic_boom_11[32x32],minecraft:sonic_boom_12[32x32],minecraft:sonic_boom_13[32x32],minecraft:sonic_boom_14[32x32],minecraft:sonic_boom_15[32x32],minecraft:sonic_boom_2[32x32],minecraft:sonic_boom_3[32x32],minecraft:sonic_boom_4[32x32],minecraft:sonic_boom_5[32x32],minecraft:sonic_boom_6[32x32],minecraft:sonic_boom_7[32x32],minecraft:sonic_boom_8[32x32],minecraft:sonic_boom_9[32x32],minecraft:sweep_0[32x32],minecraft:sweep_1[32x32],minecraft:sweep_2[32x32],minecraft:sweep_3[32x32],minecraft:sweep_4[32x32],minecraft:sweep_5[32x32],minecraft:sweep_6[32x32],minecraft:sweep_7[32x32],minecraft:vibration[18x18],minecraft:big_smoke_0[16x16],minecraft:big_smoke_1[16x16],minecraft:big_smoke_10[16x16],minecraft:big_smoke_11[16x16],minecraft:big_smoke_2[16x16],minecraft:big_smoke_3[16x16],minecraft:big_smoke_4[16x16],minecraft:big_smoke_5[16x16],minecraft:big_smoke_6[16x16],minecraft:big_smoke_7[16x16],minecraft:big_smoke_8[16x16],minecraft:big_smoke_9[16x16],minecraft:bubble_pop_0[16x16],minecraft:bubble_pop_1[16x16],minecraft:bubble_pop_2[16x16],minecraft:bubble_pop_3[16x16],minecraft:bubble_pop_4[16x16],stitched_sins:freezing_particle[16x16],stitched_sins:freezing_particle_1[16x16],stitched_sins:freezing_particle_10[16x16],stitched_sins:freezing_particle_11[16x16],stitched_sins:freezing_particle_12[16x16],stitched_sins:freezing_particle_13[16x16],stitched_sins:freezing_particle_14[16x16],stitched_sins:freezing_particle_2[16x16],stitched_sins:freezing_particle_3[16x16],stitched_sins:freezing_particle_4[16x16],stitched_sins:freezing_particle_5[16x16],stitched_sins:freezing_particle_6[16x16],stitched_sins:freezing_particle_7[16x16],stitched_sins:freezing_particle_8[16x16],stitched_sins:freezing_particle_9[16x16],minecraft:missingno[16x16],minecraft:sculk_charge_0[16x16],minecraft:sculk_charge_1[16x16],minecraft:sculk_charge_2[16x16],minecraft:sculk_charge_3[16x16],minecraft:sculk_charge_4[16x16],minecraft:sculk_charge_5[16x16],minecraft:sculk_charge_6[16x16],minecraft:sculk_charge_pop_0[16x16],minecraft:sculk_charge_pop_1[16x16],minecraft:sculk_charge_pop_2[16x16],minecraft:sculk_charge_pop_3[16x16],minecraft:sculk_soul_0[16x16],minecraft:sculk_soul_1[16x16],minecraft:sculk_soul_10[16x16],minecraft:sculk_soul_2[16x16],minecraft:sculk_soul_3[16x16],minecraft:sculk_soul_4[16x16],minecraft:sculk_soul_5[16x16],minecraft:sculk_soul_6[16x16],minecraft:sculk_soul_7[16x16],minecraft:sculk_soul_8[16x16],minecraft:sculk_soul_9[16x16],stitched_sins:snowflake[16x16],stitched_sins:snowflake_animation[16x16],minecraft:soul_0[16x16],minecraft:soul_1[16x16],minecraft:soul_10[16x16],minecraft:soul_2[16x16],minecraft:soul_3[16x16],minecraft:soul_4[16x16],minecraft:soul_5[16x16],minecraft:soul_6[16x16],minecraft:soul_7[16x16],minecraft:soul_8[16x16],minecraft:soul_9[16x16],minecraft:shriek[13x13],minecraft:angry[8x8],minecraft:bubble[8x8],minecraft:critical_hit[8x8],minecraft:damage[8x8],minecraft:drip_fall[8x8],minecraft:drip_hang[8x8],minecraft:drip_land[8x8],minecraft:effect_0[8x8],minecraft:effect_1[8x8],minecraft:effect_2[8x8],minecraft:effect_3[8x8],minecraft:effect_4[8x8],minecraft:effect_5[8x8],minecraft:effect_6[8x8],minecraft:effect_7[8x8],minecraft:enchanted_hit[8x8],minecraft:flame[8x8],minecraft:generic_0[8x8],minecraft:generic_1[8x8],minecraft:generic_2[8x8],minecraft:generic_3[8x8],minecraft:generic_4[8x8],minecraft:generic_5[8x8],minecraft:generic_6[8x8],minecraft:generic_7[8x8],minecraft:glint[8x8],minecraft:glitter_0[8x8],minecraft:glitter_1[8x8],minecraft:glitter_2[8x8],minecraft:glitter_3[8x8],minecraft:glitter_4[8x8],minecraft:glitter_5[8x8],minecraft:glitter_6[8x8],minecraft:glitter_7[8x8],minecraft:glow[8x8],minecraft:heart[8x8],minecraft:lava[8x8],minecraft:nautilus[8x8],minecraft:note[8x8],minecraft:sga_a[8x8],minecraft:sga_b[8x8],minecraft:sga_c[8x8],minecraft:sga_d[8x8],minecraft:sga_e[8x8],minecraft:sga_f[8x8],minecraft:sga_g[8x8],minecraft:sga_h[8x8],minecraft:sga_i[8x8],minecraft:sga_j[8x8],minecraft:sga_k[8x8],minecraft:sga_l[8x8],minecraft:sga_m[8x8],minecraft:sga_n[8x8],minecraft:sga_o[8x8],minecraft:sga_p[8x8],minecraft:sga_q[8x8],minecraft:sga_r[8x8],minecraft:sga_s[8x8],minecraft:sga_t[8x8],minecraft:sga_u[8x8],minecraft:sga_v[8x8],minecraft:sga_w[8x8],minecraft:sga_x[8x8],minecraft:sga_y[8x8],minecraft:sga_z[8x8],minecraft:soul_fire_flame[8x8],minecraft:spark_0[8x8],minecraft:spark_1[8x8],minecraft:spark_2[8x8],minecraft:spark_3[8x8],minecraft:spark_4[8x8],minecraft:spark_5[8x8],minecraft:spark_6[8x8],minecraft:spark_7[8x8],minecraft:spell_0[8x8],minecraft:spell_1[8x8],minecraft:spell_2[8x8],minecraft:spell_3[8x8],minecraft:spell_4[8x8],minecraft:spell_5[8x8],minecraft:spell_6[8x8],minecraft:spell_7[8x8],minecraft:splash_0[8x8],minecraft:splash_1[8x8],minecraft:splash_2[8x8],minecraft:splash_3[8x8],minecraft:goldheart_0[8x7],minecraft:goldheart_1[8x7],minecraft:goldheart_2[8x7],minecraft:cherry_0[3x3],minecraft:cherry_1[3x3],minecraft:cherry_10[3x3],minecraft:cherry_11[3x3],minecraft:cherry_2[3x3],minecraft:cherry_3[3x3],minecraft:cherry_4[3x3],minecraft:cherry_5[3x3],minecraft:cherry_6[3x3],minecraft:cherry_7[3x3],minecraft:cherry_8[3x3],minecraft:cherry_9[3x3]
+	Max Texture Size: 16384
+Stacktrace:
+	at net.minecraft.client.renderer.texture.SpriteLoader.stitch(SpriteLoader.java:79) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.texture.SpriteLoader.lambda$loadAndStitch$7(SpriteLoader.java:123) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {}
+
+
+-- Overlay render details --
+Details:
+	Overlay name: net.minecraftforge.client.loading.ForgeLoadingOverlay
+Stacktrace:
+	at net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:957) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1146) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:718) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.2.0.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.devService(ForgeClientUserdevLaunchHandler.java:19) ~[fmlloader-1.20.1-47.2.0.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.2.0.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: No
+	Packs: vanilla, mod_resources
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.9, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 134381880 bytes (128 MiB) / 500170752 bytes (477 MiB) up to 1979711488 bytes (1888 MiB)
+	CPUs: 6
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 4500U with Radeon Graphics         
+	Identifier: AuthenticAMD Family 23 Model 96 Stepping 1
+	Microarchitecture: unknown
+	Frequency (GHz): 2.37
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 6
+	Graphics card #0 name: AMD Radeon(TM) Graphics
+	Graphics card #0 vendor: Advanced Micro Devices, Inc. (0x1002)
+	Graphics card #0 VRAM (MB): 512.00
+	Graphics card #0 deviceId: 0x1636
+	Graphics card #0 versionInfo: DriverVersion=27.20.21002.3000
+	Memory slot #0 capacity (MB): 4096.00
+	Memory slot #0 clockSpeed (GHz): 4.27
+	Memory slot #0 type: LPDDR4
+	Memory slot #1 capacity (MB): 4096.00
+	Memory slot #1 clockSpeed (GHz): 4.27
+	Memory slot #1 type: LPDDR4
+	Virtual memory max (MB): 22031.88
+	Virtual memory used (MB): 19105.25
+	Swap memory total (MB): 14482.57
+	Swap memory used (MB): 1556.59
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Launched Version: MOD_DEV
+	Backend library: LWJGL version 3.3.1 build 7
+	Backend API: AMD Radeon(TM) Graphics GL version 4.6.14830 Core Profile Forward-Compatible Context 21.10.02.03 27.20.21002.3000, ATI Technologies Inc.
+	Window size: 854x480
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Graphics mode: fast
+	Resource Packs: 
+	Current Language: en_us
+	CPU: 6x AMD Ryzen 5 4500U with Radeon Graphics 
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.|Minecraft                     |minecraft                     |1.20.1              |ENQUEUE_IM|Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		main                                              |Stitched sins                 |stitched_sins                 |1.0.0               |ENQUEUE_IM|Manifest: NOSIGNATURE
+		                                                  |Forge                         |forge                         |47.2.0              |ENQUEUE_IM|Manifest: NOSIGNATURE
+	Crash Report UUID: cd68c811-5c83-4868-b6b5-0333a399b93a
+	FML: 47.2
+	Forge: net.minecraftforge:47.2.0

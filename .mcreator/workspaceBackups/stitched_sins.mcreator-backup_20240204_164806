@@ -1,0 +1,2064 @@
+{
+  "mod_elements": [
+    {
+      "name": "Proc1",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proc_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/Proc1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Proc2",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proc_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/Proc2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EndermanHeart",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderman_heart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/item/EndermanHeartItem.java",
+          "src/main/resources/assets/stitched_sins/models/item/enderman_heart.json"
+        ]
+      },
+      "path": "~/Organs/EndermanHeart"
+    },
+    {
+      "name": "EndermanHeartEaten",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderman_heart_eaten",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/EndermanHeartEatenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Organs/EndermanHeart"
+    },
+    {
+      "name": "Heart",
+      "type": "tag",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sons_of_sins/tags/items/hearts.json"
+        ]
+      }
+    },
+    {
+      "name": "EndermanHeartEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderman_heart_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/EndermanHeartEvenementAuClicDroitDansLairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Organs/EndermanHeart"
+    },
+    {
+      "name": "ConfirmedHeartInventory",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "confirmed_heart_inventory",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/ConfirmedHeartInventoryProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Organs"
+    },
+    {
+      "name": "EndermanHeartConfirmed",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderman_heart_confirmed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stitched_sins/models/item/enderman_heart_confirmed.json",
+          "src/main/java/net/mcreator/stitchedsins/item/EndermanHeartConfirmedItem.java"
+        ]
+      },
+      "path": "~/Organs/EndermanHeart"
+    },
+    {
+      "name": "WolfRibs",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_ribs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/item/WolfRibsItem.java",
+          "src/main/resources/assets/stitched_sins/models/item/wolf_ribs.json"
+        ]
+      },
+      "path": "~/Organs/WolfRibs"
+    },
+    {
+      "name": "Ribs",
+      "type": "tag",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ribs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sons_of_sins/tags/items/ribs.json"
+        ]
+      }
+    },
+    {
+      "name": "WolfRibsConfirmed",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_ribs_confirmed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stitched_sins/models/item/wolf_ribs_confirmed.json",
+          "src/main/java/net/mcreator/stitchedsins/item/WolfRibsConfirmedItem.java"
+        ]
+      },
+      "path": "~/Organs/WolfRibs"
+    },
+    {
+      "name": "WolfRibsRoghtClick",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_ribs_roght_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/WolfRibsRoghtClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Organs/WolfRibs"
+    },
+    {
+      "name": "DragonHeart",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_heart",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stitched_sins/models/item/dragon_heart.json",
+          "src/main/java/net/mcreator/stitchedsins/item/DragonHeartItem.java"
+        ]
+      },
+      "path": "~/Organs/DragonHeart"
+    },
+    {
+      "name": "DragonheartShootFIREBall",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonheart_shoot_fire_ball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/DragonheartShootFIREBallProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Organs/DragonHeart"
+    },
+    {
+      "name": "DragonHeartEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_heart_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/DragonHeartEvenementAuClicDroitDansLairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Organs/DragonHeart"
+    },
+    {
+      "name": "DragonHeartConfirmed",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_heart_confirmed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/item/DragonHeartConfirmedItem.java",
+          "src/main/resources/assets/stitched_sins/models/item/dragon_heart_confirmed.json"
+        ]
+      },
+      "path": "~/Organs/DragonHeart"
+    },
+    {
+      "name": "Explosivetoken",
+      "type": "livingentity",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosivetoken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/entity/ExplosivetokenEntity.java",
+          "src/main/java/net/mcreator/stitchedsins/client/renderer/ExplosivetokenRenderer.java"
+        ]
+      },
+      "path": "~/Organs/DragonHeart"
+    },
+    {
+      "name": "ExplosivetokenLorsDeLapparitionInitialeDeLentite",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosivetoken_lors_de_lapparition_initiale_de_lentite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/ExplosivetokenLorsDeLapparitionInitialeDeLentiteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Organs/DragonHeart"
+    },
+    {
+      "name": "ExplosivetokenConditionDeModelePourUneEntiteTransparente",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosivetoken_condition_de_modele_pour_une_entite_transparente",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/ExplosivetokenConditionDeModelePourUneEntiteTransparenteProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Organs/DragonHeart"
+    },
+    {
+      "name": "ExplosivetokenChaqueMiseAJourDeTickDeLentite",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosivetoken_chaque_mise_a_jour_de_tick_de_lentite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/ExplosivetokenChaqueMiseAJourDeTickDeLentiteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Organs/DragonHeart"
+    },
+    {
+      "name": "EndermanHeartClickDroit",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderman_heart_click_droit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/EndermanHeartClickDroitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Organs/EndermanHeart"
+    },
+    {
+      "name": "SewingTable",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sewing_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stitched_sins/models/item/sewing_table.json",
+          "src/main/resources/assets/stitched_sins/models/block/sewing_table.json",
+          "src/main/java/net/mcreator/stitchedsins/block/entity/SewingTableBlockEntity.java",
+          "src/main/resources/assets/stitched_sins/blockstates/sewing_table.json",
+          "src/main/java/net/mcreator/stitchedsins/block/SewingTableBlock.java"
+        ]
+      },
+      "path": "~/SewingTable"
+    },
+    {
+      "name": "Muscles",
+      "type": "tag",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muscles",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sons_of_sins/tags/items/muscles.json"
+        ]
+      }
+    },
+    {
+      "name": "SewingTableGUI",
+      "type": "gui",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sewing_table_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/world/inventory/SewingTableGUIMenu.java",
+          "src/main/java/net/mcreator/stitchedsins/client/gui/SewingTableGUIScreen.java"
+        ]
+      },
+      "path": "~/SewingTable"
+    },
+    {
+      "name": "BoneNeedle",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_needle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stitched_sins/models/item/bone_needle.json",
+          "src/main/java/net/mcreator/stitchedsins/item/BoneNeedleItem.java"
+        ]
+      },
+      "path": "~/SewingTable"
+    },
+    {
+      "name": "EtherString",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ether_string",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/item/EtherStringItem.java",
+          "src/main/resources/assets/stitched_sins/models/item/ether_string.json"
+        ]
+      },
+      "path": "~/SewingTable"
+    },
+    {
+      "name": "ModObjects",
+      "type": "tab",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_objects",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "EtherStringCraft",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ether_string_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/addon_sons_of_sins/recipes/ether_string_craft.json"
+        ]
+      },
+      "path": "~/SewingTable"
+    },
+    {
+      "name": "BoneNeedleCraft",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_needle_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stitched_sins/recipes/bone_needle_craft.json"
+        ]
+      },
+      "path": "~/SewingTable"
+    },
+    {
+      "name": "StitchedHeart",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stitched_heart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/item/StitchedHeartItem.java",
+          "src/main/resources/assets/stitched_sins/models/item/stitched_heart.json"
+        ]
+      },
+      "path": "~/StitchedOrgans"
+    },
+    {
+      "name": "StitchedRibs",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stitched_ribs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/item/StitchedRibsItem.java",
+          "src/main/resources/assets/stitched_sins/models/item/stitched_ribs.json"
+        ]
+      },
+      "path": "~/StitchedOrgans"
+    },
+    {
+      "name": "StitchedMuscles",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stitched_muscles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/item/StitchedMusclesItem.java",
+          "src/main/resources/assets/stitched_sins/models/item/stitched_muscles.json"
+        ]
+      },
+      "path": "~/StitchedOrgans"
+    },
+    {
+      "name": "WarpedChip",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_chip",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stitched_sins/models/item/warped_chip.json",
+          "src/main/java/net/mcreator/stitchedsins/item/WarpedChipItem.java"
+        ]
+      },
+      "path": "~/StitchedOrgans"
+    },
+    {
+      "name": "StitchedOrgans",
+      "type": "tag",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stitched_organs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stitched_sins/tags/items/stitched_organs.json"
+        ]
+      },
+      "path": "~/StitchedOrgans"
+    },
+    {
+      "name": "Wastes",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastes",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stitched_sins/models/item/wastes.json",
+          "src/main/java/net/mcreator/stitchedsins/item/WastesItem.java"
+        ]
+      },
+      "path": "~/StitchedOrgans"
+    },
+    {
+      "name": "SewingTableMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sewing_table_mise_a_jour_du_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/SewingTableMiseAJourDuTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SewingTable"
+    },
+    {
+      "name": "LastLove",
+      "type": "potioneffect",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "last_love",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/potion/LastLoveMobEffect.java"
+        ]
+      },
+      "path": "~/Organs/Effects"
+    },
+    {
+      "name": "WolfRibsTrigger",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_ribs_trigger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/WolfRibsTriggerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Organs/WolfRibs"
+    },
+    {
+      "name": "StitchedOrganEffect",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stitched_organ_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/StitchedOrganEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/StitchedOrgans"
+    },
+    {
+      "name": "InstinctEffetTest",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "instinct_effet_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/InstinctEffetTestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Organs/Effects"
+    },
+    {
+      "name": "LastBreath",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "last_breath",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/LastBreathProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Organs/Effects"
+    },
+    {
+      "name": "Boiling",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boiling",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/BoilingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Organs/Effects"
+    },
+    {
+      "name": "AddInformations",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "add_informations",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/AddInformationsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/SewingTable"
+    },
+    {
+      "name": "UseStitchedOrgan",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "use_stitched_organ",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/UseStitchedOrganProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/StitchedOrgans"
+    },
+    {
+      "name": "SewingTableRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sewing_table_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stitched_sins/recipes/sewing_table_recipe.json"
+        ]
+      },
+      "path": "~/SewingTable"
+    },
+    {
+      "name": "OnLastLoveDeath",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_last_love_death",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/OnLastLoveDeathProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Organs/Effects"
+    },
+    {
+      "name": "Freezing",
+      "type": "potioneffect",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freezing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/potion/FreezingMobEffect.java"
+        ]
+      },
+      "path": "~/Organs/Effects"
+    },
+    {
+      "name": "IceHeart",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_heart",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stitched_sins/models/item/ice_heart.json",
+          "src/main/java/net/mcreator/stitchedsins/item/IceHeartItem.java"
+        ]
+      },
+      "path": "~/Organs"
+    },
+    {
+      "name": "IceHeartEffect",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_heart_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/IceHeartEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Organs/Effects"
+    },
+    {
+      "name": "IceHeartConsumed",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_heart_consumed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/IceHeartConsumedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Organs"
+    },
+    {
+      "name": "PredatorMuscle",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "predator_muscle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stitched_sins/models/item/predator_muscle.json",
+          "src/main/java/net/mcreator/stitchedsins/item/PredatorMuscleItem.java"
+        ]
+      },
+      "path": "~/Organs"
+    },
+    {
+      "name": "PredatorGrowl",
+      "type": "potioneffect",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "predator_growl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/potion/PredatorGrowlMobEffect.java"
+        ]
+      },
+      "path": "~/Organs/Effects"
+    },
+    {
+      "name": "MissileFist",
+      "type": "potioneffect",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "missile_fist",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/potion/MissileFistMobEffect.java"
+        ]
+      },
+      "path": "~/Organs/Effects"
+    },
+    {
+      "name": "FreezingTickEffectNew",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "freezing_tick_effect_new",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amplifier",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Organs/Effects"
+    },
+    {
+      "name": "EffectAttack",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effect_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/EffectAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Organs/Effects"
+    },
+    {
+      "name": "EffectsOnAttack",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "effects_on_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/EffectsOnAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Organs/Effects"
+    },
+    {
+      "name": "WarpedGolemCuirass",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_golem_cuirass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/item/WarpedGolemCuirassItem.java",
+          "src/main/resources/assets/stitched_sins/models/item/warped_golem_cuirass.json"
+        ]
+      },
+      "path": "~/Organs"
+    },
+    {
+      "name": "PredatorMuscleEffect",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "predator_muscle_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/PredatorMuscleEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Organs/Effects"
+    },
+    {
+      "name": "WarpedGolemCuirassRightclicked",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_golem_cuirass_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/WarpedGolemCuirassRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Organs"
+    },
+    {
+      "name": "WarpedGolemCuirassEffect",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_golem_cuirass_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/WarpedGolemCuirassEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Organs/Effects"
+    },
+    {
+      "name": "PredatorMuscleRightclicked",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "predator_muscle_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/PredatorMuscleRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Organs"
+    },
+    {
+      "name": "RoseCreeperRibs",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rose_creeper_ribs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stitched_sins/models/item/rose_creeper_ribs.json",
+          "src/main/java/net/mcreator/stitchedsins/item/RoseCreeperRibsItem.java"
+        ]
+      },
+      "path": "~/Organs"
+    },
+    {
+      "name": "RoseCreeperRibsEffect",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rose_creeper_ribs_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/RoseCreeperRibsEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Organs/Effects"
+    },
+    {
+      "name": "RoseCreeperRibsRightclicked",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rose_creeper_ribs_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/RoseCreeperRibsRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Organs"
+    },
+    {
+      "name": "DisplayName1",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display_name_1",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/DisplayName1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/SewingTable"
+    },
+    {
+      "name": "DisplayName2",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display_name_2",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/DisplayName2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/SewingTable"
+    },
+    {
+      "name": "AddInformationsNegativeEffects",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "add_informations_negative_effects",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/AddInformationsNegativeEffectsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/SewingTable"
+    },
+    {
+      "name": "ReversedOrgans",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reversed_organs",
+      "metadata": {
+        "return_type": "itemstack",
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/ReversedOrgansProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Organs/WarpedChipOrgans"
+    },
+    {
+      "name": "ExecuteWarpedAnalyse",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "execute_warped_analyse",
+      "metadata": {
+        "return_type": "itemstack",
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/ExecuteWarpedAnalyseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SewingTable"
+    },
+    {
+      "name": "RoseCreeperRibsBlock",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rose_creeper_ribs_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/block/entity/RoseCreeperRibsBlockBlockEntity.java",
+          "src/main/resources/assets/stitched_sins/models/block/rose_creeper_ribs_block.json",
+          "src/main/resources/assets/stitched_sins/models/item/rose_creeper_ribs_block.json",
+          "src/main/java/net/mcreator/stitchedsins/block/RoseCreeperRibsBlockBlock.java",
+          "src/main/resources/assets/stitched_sins/blockstates/rose_creeper_ribs_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Roseribstocube",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roseribstocube",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stitched_sins/recipes/roseribstocube.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RoseCubetoribss",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rose_cubetoribss",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stitched_sins/recipes/rose_cubetoribss.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "IceHeartBlockNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_heart_block_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/IceHeartBlockNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "IceHeartBlockBlockAdded",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_heart_block_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/IceHeartBlockBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "IceHeartBlock",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_heart_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stitched_sins/models/item/ice_heart_block.json",
+          "src/main/java/net/mcreator/stitchedsins/block/IceHeartBlockBlock.java",
+          "src/main/resources/assets/stitched_sins/blockstates/ice_heart_block.json",
+          "src/main/resources/assets/stitched_sins/models/block/ice_heart_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "PredatorMuscleBlock",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "predator_muscle_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stitched_sins/models/block/predator_muscle_block.json",
+          "src/main/java/net/mcreator/stitchedsins/block/PredatorMuscleBlockBlock.java",
+          "src/main/resources/assets/stitched_sins/models/item/predator_muscle_block.json",
+          "src/main/resources/assets/stitched_sins/blockstates/predator_muscle_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "PredatorMuscleBlockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "predator_muscle_block_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/PredatorMuscleBlockEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WarpedCuirassBlock",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_cuirass_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stitched_sins/blockstates/warped_cuirass_block.json",
+          "src/main/resources/assets/stitched_sins/models/item/warped_cuirass_block.json",
+          "src/main/java/net/mcreator/stitchedsins/block/WarpedCuirassBlockBlock.java",
+          "src/main/resources/assets/stitched_sins/models/block/warped_cuirass_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WarpedCuirassBlockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_cuirass_block_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/WarpedCuirassBlockEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RoseCreeperRibsBlockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rose_creeper_ribs_block_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/RoseCreeperRibsBlockEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RoseCreeperRibsBlockUpdateTick",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rose_creeper_ribs_block_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/RoseCreeperRibsBlockUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RoseCreeperRibsBlockBlockAdded",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rose_creeper_ribs_block_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/RoseCreeperRibsBlockBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DragonHeartShootFireballItem",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_heart_shoot_fireball_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stitchedsins/procedures/DragonHeartShootFireballItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Organs/DragonHeart"
+    },
+    {
+      "name": "FreezingParticle",
+      "type": "particle",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freezing_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stitched_sins/particles/freezing_particle.json",
+          "src/main/java/net/mcreator/stitchedsins/client/particle/FreezingParticleParticle.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.addon_sons_of_sins.dragon_heart": "Dragon Heart",
+      "item.stitched_sins.dragon_heart": "Dragon Heart",
+      "item.stitched_sins.stitched_heart": "Stitched Heart",
+      "itemGroup.tabmod_objects": "Stitched Sins",
+      "item.stitched_sins.ice_heart": "§bIce Heart",
+      "item.addon_sons_of_sins.wolf_ribs_confirmed": "Wolf Ribs Confirmed",
+      "effect.stitched_sins.last_love": "Last Love",
+      "item.stitched_sins.enderman_heart_confirmed": "Enderman Heart Confirmed",
+      "entity.addon_sons_of_sins.explosivetoken": "Explosivetoken",
+      "item.stitched_sins.wolf_ribs_confirmed": "Wolf Ribs Confirmed",
+      "item.addon_sons_of_sins.enderman_heart": "Enderman Heart",
+      "block.stitched_sins.ice_heart_block": "Ice Heart Block",
+      "item.stitched_sins.wastes": "Wastes",
+      "item.stitched_sins.predator_muscle": "§dPredator Muscle",
+      "item.stitched_sins.bone_needle": "Bone Needle",
+      "item.stitched_sins.warped_chip": "Warped Chip",
+      "item_group.stitched_sins.mod_objects": "Stitched Sins",
+      "item.addon_sons_of_sins.bone_needle": "Bone Needle",
+      "item.stitched_sins.dragon_heart_confirmed": "Dragon Heart Confirmed",
+      "effect.stitched_sins.predator_growl": "Predator Growl",
+      "item.addon_sons_of_sins.dragon_heart_confirmed": "Dragon Heart Confirmed",
+      "item.addon_sons_of_sins.ether_string": "Ether String",
+      "item.stitched_sins.ether_string": "Ether String",
+      "effect.stitched_sins.freezing": "Freezing",
+      "item.addon_sons_of_sins.enderman_heart_confirmed": "Enderman Heart Confirmed",
+      "block.stitched_sins.warped_cuirass_block": "Warped Cuirass Block",
+      "block.addon_sons_of_sins.sewing_table": "Sewing Table",
+      "item.stitched_sins.stitched_muscles": "Stitched Muscles",
+      "item.stitched_sins.wolf_ribs": "§7Wolf Ribs",
+      "entity.stitched_sins.explosivetoken": "Explosivetoken",
+      "effect.stitched_sins.missile_fist": "Missile Fist",
+      "item.stitched_sins.rose_creeper_ribs": "§5Rose Creeper Ribs",
+      "block.stitched_sins.sewing_table": "Sewing Table",
+      "block.stitched_sins.rose_creeper_ribs_block": "Rose Creeper Ribs Block",
+      "item.stitched_sins.warped_golem_cuirass": "§3Warped Golem Cuirass",
+      "block.stitched_sins.predator_muscle_block": "Predator Muscle Block",
+      "item.stitched_sins.enderman_heart": "Enderman Heart",
+      "item.addon_sons_of_sins.wolf_ribs": "Wolf Ribs",
+      "item.stitched_sins.stitched_ribs": "Stitched Ribs"
+    },
+    "fr_fr": {
+      "item.stitched_sins.dragon_heart": "Coeur de Dragon",
+      "item.addon_sons_of_sins.dragon_heart": "Coeur de Dragon",
+      "item.stitched_sins.stitched_heart": "Coeur recousu",
+      "itemGroup.tabmod_objects": "Péchés recousus",
+      "item.stitched_sins.ice_heart": "§bCoeur de glace",
+      "item.addon_sons_of_sins.wolf_ribs_confirmed": "Côtes de loup confirmées",
+      "item.stitched_sins.enderman_heart_confirmed": "Coeur d\u0027enderman confirmé",
+      "effect.stitched_sins.last_love": "Dernier amour",
+      "entity.addon_sons_of_sins.explosivetoken": "Explosivetoken",
+      "item.stitched_sins.wolf_ribs_confirmed": "Wolf Ribs Confirmed",
+      "item.addon_sons_of_sins.enderman_heart": "Coeur d\u0027enderman",
+      "block.stitched_sins.ice_heart_block": "Bloc de Coeur de Glace",
+      "item.stitched_sins.wastes": "Déchets",
+      "item.stitched_sins.predator_muscle": "§dMuscle de prédateur",
+      "item.stitched_sins.bone_needle": "Aiguille d\u0027os",
+      "item.stitched_sins.warped_chip": "Puce Distordue",
+      "item_group.stitched_sins.mod_objects": "Péchés recousus",
+      "item.addon_sons_of_sins.bone_needle": "Aiguille d\u0027os",
+      "item.stitched_sins.dragon_heart_confirmed": "Dragon Heart Confirmed",
+      "effect.stitched_sins.predator_growl": "Grondement de prédateur",
+      "item.addon_sons_of_sins.dragon_heart_confirmed": "Dragon Heart Confirmed",
+      "item.addon_sons_of_sins.ether_string": "Fil d\u0027éther",
+      "item.stitched_sins.ether_string": "Fil d\u0027éther",
+      "effect.stitched_sins.freezing": "Gel",
+      "item.addon_sons_of_sins.enderman_heart_confirmed": "Enderman Heart Confirmed",
+      "block.stitched_sins.warped_cuirass_block": "Bloc de cuirasse de golem distordue",
+      "block.addon_sons_of_sins.sewing_table": "Table de couture",
+      "item.stitched_sins.stitched_muscles": "Muscles recousus",
+      "item.stitched_sins.wolf_ribs": "Côtes de loup",
+      "entity.stitched_sins.explosivetoken": "Explosivetoken",
+      "effect.stitched_sins.missile_fist": "Coup de poing missile",
+      "item.stitched_sins.rose_creeper_ribs": "§5Côtes de creeper rose",
+      "block.stitched_sins.sewing_table": "Table de couture",
+      "block.stitched_sins.rose_creeper_ribs_block": "Bloc de côtes de creeper rose",
+      "item.stitched_sins.warped_golem_cuirass": "§3Cuirasse de golem distordue",
+      "block.stitched_sins.predator_muscle_block": "Bloc de muscle de Prédateur",
+      "item.stitched_sins.enderman_heart": "Coeur d\u0027enderman",
+      "item.addon_sons_of_sins.wolf_ribs": "Côtes de loup",
+      "item.stitched_sins.stitched_ribs": "Côtes recousues"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "SewingTable",
+        "children": []
+      },
+      {
+        "name": "StitchedOrgans",
+        "children": []
+      },
+      {
+        "name": "Organs",
+        "children": [
+          {
+            "name": "EndermanHeart",
+            "children": []
+          },
+          {
+            "name": "WolfRibs",
+            "children": []
+          },
+          {
+            "name": "DragonHeart",
+            "children": []
+          },
+          {
+            "name": "Effects",
+            "children": []
+          },
+          {
+            "name": "WarpedChipOrgans",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "stitched_sins",
+    "modName": "Stitched sins",
+    "version": "1.0.0",
+    "author": "eaubr, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.stitchedsins",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

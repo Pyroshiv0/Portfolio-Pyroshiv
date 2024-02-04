@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "companion_cube_uncentered"
+      },
+      "name": "default"
+    }
+  }
+}

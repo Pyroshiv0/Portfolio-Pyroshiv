@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:StitchedHeart"
+      },
+      {
+        "value": "CUSTOM:StitchedRibs"
+      },
+      {
+        "value": "CUSTOM:StitchedMuscles"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "stitched_organs",
+    "namespace": "stitched_sins"
+  }
+}
