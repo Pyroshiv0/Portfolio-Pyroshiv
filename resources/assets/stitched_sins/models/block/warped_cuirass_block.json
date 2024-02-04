@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stitched_sins:block/warped_cuirass_block",
+    "up": "stitched_sins:block/warped_cuirass_block",
+    "north": "stitched_sins:block/warped_cuirass_block",
+    "east": "stitched_sins:block/warped_cuirass_block",
+    "south": "stitched_sins:block/warped_cuirass_block",
+    "west": "stitched_sins:block/warped_cuirass_block",
+    "particle": "stitched_sins:block/warped_cuirass_block"
+  },
+  "render_type": "solid"
+}

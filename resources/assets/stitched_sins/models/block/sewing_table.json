@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stitched_sins:block/sewing_table_bottom",
+    "up": "stitched_sins:block/sewing_table_top",
+    "north": "stitched_sins:block/sewing_table_front",
+    "east": "stitched_sins:block/crafting_table_side",
+    "south": "stitched_sins:block/crafting_table_side",
+    "west": "stitched_sins:block/crafting_table_side",
+    "particle": "stitched_sins:block/sewing_table_bottom"
+  },
+  "render_type": "solid"
+}

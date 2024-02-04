@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "stitched_sins:block/ice_heart_block",
+    "particle": "stitched_sins:block/ice_heart_block"
+  },
+  "render_type": "solid"
+}
