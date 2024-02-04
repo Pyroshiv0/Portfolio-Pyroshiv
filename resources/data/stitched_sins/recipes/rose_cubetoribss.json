@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stitched_sins:rose_creeper_ribs_block"
+    }
+  ],
+  "result": {
+    "item": "stitched_sins:rose_creeper_ribs",
+    "count": 9
+  }
+}

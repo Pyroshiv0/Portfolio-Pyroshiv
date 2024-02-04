@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "sons_of_sins:ether_ashes"
+    },
+    "3": {
+      "item": "sons_of_sins:ether_ashes"
+    },
+    "4": {
+      "item": "minecraft:string"
+    },
+    "5": {
+      "item": "sons_of_sins:ether_ashes"
+    },
+    "7": {
+      "item": "sons_of_sins:ether_ashes"
+    }
+  },
+  "result": {
+    "item": "stitched_sins:ether_string",
+    "count": 1
+  }
+}

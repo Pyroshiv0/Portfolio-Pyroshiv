@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stitched_sins:rose_creeper_ribs"
+    }
+  },
+  "result": {
+    "item": "stitched_sins:rose_creeper_ribs_block",
+    "count": 1
+  }
+}

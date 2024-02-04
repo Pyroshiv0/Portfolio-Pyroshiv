@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stitched_sins:warped_golem_cuirass"
+    }
+  },
+  "result": {
+    "item": "stitched_sins:warped_cuirass_block",
+    "count": 1
+  }
+}
