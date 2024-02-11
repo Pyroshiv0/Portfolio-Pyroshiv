@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:HugeBucket"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "item.bucket.empty"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 2.0,
+    "knockback": 0,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onHitsBlock": {
+      "name": "HugeBucketEmpProjectileHitsBlock"
+    }
+  }
+}

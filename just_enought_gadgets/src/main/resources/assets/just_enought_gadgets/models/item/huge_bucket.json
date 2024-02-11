@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "just_enought_gadgets:item/hugebucket"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "just_enought_gadgets:huge_bucket_liquid": 2
+      },
+      "model": "just_enought_gadgets:item/huge_bucket_0"
+    },
+    {
+      "predicate": {
+        "just_enought_gadgets:huge_bucket_liquid": 1
+      },
+      "model": "just_enought_gadgets:item/huge_bucket_1"
+    }
+  ]
+}

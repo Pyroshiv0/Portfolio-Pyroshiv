@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "b b",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_block"
+    },
+    "b": {
+      "item": "just_enought_gadgets:huge_bucket"
+    }
+  },
+  "result": {
+    "item": "just_enought_gadgets:gigantic_bucket",
+    "count": 1
+  }
+}
