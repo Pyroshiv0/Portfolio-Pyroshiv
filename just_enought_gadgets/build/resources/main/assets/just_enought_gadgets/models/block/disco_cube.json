@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "just_enought_gadgets:block/disco_cube",
+    "particle": "just_enought_gadgets:block/disco_cube"
+  },
+  "render_type": "solid"
+}
