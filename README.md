@@ -8,4 +8,6 @@ Ensuite, j'ai le mod Just Enought Gadgets (peu inspiré sur ce nom) qui donne de
 
 Enfin, il y a la branche Golem's Awakening qui est un de mes plus gros projets mais n'est qu'en début de développement.
 
-Merci à vous, en espérant que mon portfolio vous plaise
+Merci à vous, en espérant que mon portfolio vous plaise.
+
+PS : Les trois mods sont en version 1.20.1
