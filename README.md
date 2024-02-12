@@ -2,6 +2,7 @@
 J'ai mis ce projet là car je n'avais pas mis sur les deux autres mods d'entités customisées. Le projet de ce mod était d'ajouter principalement de nouveaux golems œuvrant dans 
 diverses tâches come l'agriculture, le combat etc.
 
+Le mod est toujours en 1.20.1 avec le fichier jar mis avec le programme
 -Fonctionnement du composteur golem :
 -GUI du golem:
 J'ai donc mis ici mon golem composteur. Lorsque que l'on fait un clic droit dessus, cela ouvre une GUI avec 5 slots verts et 3 rouges. Si on y met un objet compostable, on a une
@@ -24,5 +25,6 @@ Il apparaît ainsi :
 0
 /
 =    avec 0 la citrouille (qu'il faut placer en dernier), / n'importe quel type de bois et = un composteur
+(voir image totem_golem_composteur,sachant que la citrouille est à placer en dernier pour le foncionnement)
 
 PS : Le comportement de l'IA peut être un peu bogué à cause d'un conflit de tâches que je n'ai pas encore résolue mais le golem fonctionne dans la plupart des cas
