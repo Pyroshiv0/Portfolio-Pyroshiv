@@ -16,5 +16,5 @@ On obtiens en résultat un organe recousu avec une description customisée indiq
 En axe de potentielle amélioration,j'avais pensé faire un sprite en sortie s'adaptant  selon les organes utilisés.
 
 -Un autre point intéressant est le développement de blocs customs ,un avec un modèle 3D customisé (le companion cube) qui ont des bruits et matériaux différents.
-Lorsqu'on marche dessus cela déclenche un effet,sauf le bloc de coeur de glace gelant l'eau autour de lui
+Lorsqu'on marche dessus cela déclenche un effet,sauf le bloc de coeur de glace gelant l'eau autour de lui.
 
